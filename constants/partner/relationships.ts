@@ -1,0 +1,21 @@
+export const relationshipsEndpoints = [
+    { endpoint: "/v1/Relationship/FetchRelationshipDimension/{partnerId}", used: true },
+    { endpoint: "/v1/Relationship/PostRelationshipDimension", used: true },
+    { endpoint: "/v1/Relationship/UpdateRelationshipDimension/{dimensionId}", used: true },
+    { endpoint: "/v1/Relationship/ReorderRelationshipDimensions", used: true },
+    { endpoint: "/v1/Relationship/FetchTopRelationshipDimension/{partnerId}", used: true },
+    { endpoint: "/v1/Relationship/DeleteRelationshipDimension/{dimensionId}", used: true },
+    { endpoint: "/v1/Relationship/CreateRelationshipCategory", used: true },
+    { endpoint: "/v1/Relationship/UpdateRelationshipCategory", used: true },
+    { endpoint: "/v1/Relationship/ReorderRelationshipCategories", used: true },
+    { endpoint: "/v1/Relationship/DeleteRelationshipCategory?id={categoryId}", used: true },
+    { endpoint: "/v1/Relationship/CreateRelationshipCategoryCompanyContact", used: true },
+    { endpoint: "/v1/Relationship/UpdateRelationshipCategoryCompanyContact", used: true },
+    { endpoint: "/v1/Relationship/ReorderRelationshipCategoryCompanyContacts", used: true },
+    { endpoint: "/v1/Relationship/DeleteRelationshipCategoryCompanyContact?id={contactId}", used: true },
+    { endpoint: "/v1/Relationship/CreateRelationshipCategorySupplierContact", used: true },
+    { endpoint: "/v1/Relationship/UpdateRelationshipCategorySupplierContact", used: true },
+    { endpoint: "/v1/Relationship/ReorderRelationshipCategorySupplierContacts", used: true },
+    { endpoint: "/v1/Relationship/DeleteRelationshipCategorySupplierContact?id={contactId}", used: true },
+  ];
+  

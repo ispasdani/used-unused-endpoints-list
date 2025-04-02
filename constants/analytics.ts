@@ -1,0 +1,23 @@
+export const dashboardEndpoints = [
+    { endpoint: "/v1/DashboardAnalytics/Preset?presetId={presetId}&supplierId={supplierId}&companyId={companyId}", used: true },
+    { endpoint: "/v1/DashboardAnalytics/Presets", used: true },
+    { endpoint: "/v1/DashboardAnalytics/SharedPresets", used: true },
+    { endpoint: "/v1/DashboardAnalytics/Layout?presetId={presetId}", used: true },
+    { endpoint: "/v1/DashboardAnalytics/Preset?supplierId={supplierId}", used: true },
+    { endpoint: "/v1/DashboardAnalytics/Preset?presetId={presetId}&supplierId={supplierId}&benchmarkId={benchmarkId}", used: true },
+    { endpoint: "/v1/DashboardAnalytics/Report?presetId={presetId}", used: true },
+    { endpoint: "/v1/DashboardAnalytics/Report?reportId={reportId}", used: true },
+    { endpoint: "/v1/DashboardAnalytics/Report?supplierId={supplierId}&reportId={reportId}", used: true },
+    { endpoint: "/v1/DashboardAnalytics/Filter?reportId={reportId}", used: true },
+    { endpoint: "/v1/DashboardAnalytics/Report?reportId={reportId}", used: true },
+    { endpoint: "/v1/DashboardAnalytics/Preset?presetId={presetId}", used: true },
+    { endpoint: "/v1/DashboardAnalytics/Preset/Default", used: true },
+    { endpoint: "/v1/DashboardAnalytics/Preset/UserDefault?presetId={presetId}", used: true },
+    { endpoint: "/v1/DashboardAnalytics/Preset/CompanyDefault?presetId={presetId}", used: true },
+    { endpoint: "/v1/DashboardAnalyticsGuest/GuestPreset?guestTokenGuid={guestToken}", used: true },
+    { endpoint: "/v1/DashboardAnalyticsGuest/GuestSharePreset?presetId={presetId}&supplierId={supplierId}&companyId={companyId}", used: true },
+    { endpoint: "/v1/DashboardAnalyticsGuest/GuestSharePreset/SendMail?guestTokenGuid={guestToken}", used: true },
+    { endpoint: "/v1/DashboardAnalyticsGuest/GuestSharedPresets?companyId={companyId}&partnerId={partnerId}", used: true },
+    { endpoint: "/v1/DashboardAnalyticsGuest/GuestSharedPresets", used: true },
+  ];
+  
